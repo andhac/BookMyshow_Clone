@@ -50,7 +50,7 @@ function Recommended() {
                 </Card>
 
             </CardGroup>
-            <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/stream-leadin-web-collection-202210241242.png" style={{width:"100%",paddingRight:"150px", padding:"48px 0"}}/>
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/stream-leadin-web-collection-202210241242.png" style={{width:"100%",paddingRight:"150px", padding:"48px 0"}} alt="Banner"/>
 
             <h2 style={{fontWeight:"500",fontSize:"24px"}}>The Best Live Events </h2>
            <div style={{
@@ -58,8 +58,8 @@ function Recommended() {
                 gridTemplateColumns:"repeat(2, calc(20% - 25.6px)",
 
            }}>
-               <img style={{width:"210px",borderRadius:"10px"}} src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTArIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/workshop-and-more-web-collection-202211140440.png"/>
-               <img style={{width:"210px",borderRadius:"10px"}} src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-NCBFdmVudHM%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/comedy-shows-collection-202211140440.png"/>
+               <img style={{width:"210px",borderRadius:"10px"}} src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTArIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/workshop-and-more-web-collection-202211140440.png" alt="Image1"/>
+               <img style={{width:"210px",borderRadius:"10px"}} src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-NCBFdmVudHM%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/comedy-shows-collection-202211140440.png" alt="Image2"/>
            </div>
            </div>
     );
