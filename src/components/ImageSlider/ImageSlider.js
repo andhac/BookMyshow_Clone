@@ -1,5 +1,6 @@
 
 import Carousel from 'react-bootstrap/Carousel';
+
 import './style.css';
 function ImageSlider() {
     return (

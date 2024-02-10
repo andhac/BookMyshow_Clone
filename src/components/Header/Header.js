@@ -14,8 +14,8 @@ function Header() {
         <div >
             <Navbar className="bg-body-tertiary" style={{padding:"0"}}>
                 <Container >
-                    <Navbar.Brand href="">
-                        <img src="./logo.png" style={{width:"150px",height:"55px"}} alt="brand logo"/>
+                    <Navbar.Brand href="/">
+                        <img src="/logo.png" style={{width:"150px",height:"55px"}} alt="brand logo"/>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
@@ -24,7 +24,7 @@ function Header() {
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
-                            <Nav.Link href="#action1">Home</Nav.Link>
+                            <Nav.Link href="/">Home</Nav.Link>
                             <Nav.Link href="#action2">Link</Nav.Link>
                             <NavDropdown title="Link" id="navbarScrollingDropdown">
                                 <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
@@ -56,7 +56,7 @@ function Header() {
                 <div className="hii">
                     <div className="NavDown">
                         <div className="hie">
-                        <a href=" " className="he">Movie</a>
+                        <a href="/mov" className="he">Movie</a>
                         <a href=" " className="he">Stream</a>
                         <a href=" " className="he">Events</a>
                         <a href=" " className="he">Plays</a>
