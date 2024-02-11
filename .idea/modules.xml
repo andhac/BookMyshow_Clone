@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../BMS_Backend/.idea/BMS_Backend.iml" filepath="$PROJECT_DIR$/../BMS_Backend/.idea/BMS_Backend.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/bookmyshow.iml" filepath="$PROJECT_DIR$/.idea/bookmyshow.iml" />
     </modules>
   </component>

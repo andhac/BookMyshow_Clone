@@ -1,13 +1,14 @@
 import "../App.css";
 import Header from "../components/Header/Header";
-import ImageSlider from "../components/ImageSlider/ImageSlider";
+// import ImageSlider from "../components/ImageSlider/ImageSlider";
 import Footer from "../components/Footer";
-import All from "../components/All";
+// import All from "../components/All";
+import AllFetch from "../components/AllFetch";
 function AllMovies() {
   return (
     <div >
         <Header/>
-        <All/>
+        <AllFetch/>
         <Footer/>
     </div>
   );
