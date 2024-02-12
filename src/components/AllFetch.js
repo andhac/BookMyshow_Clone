@@ -16,7 +16,6 @@ function AllFetch() {
                 console.error(error);
             }
         };
-
         fetchData();
     }, []);
     // async function getMovies() {
