@@ -1,4 +1,5 @@
 import Button from "react-bootstrap/Button";
+import Swal from 'sweetalert2'
 import Form from "react-bootstrap/Form";
 import Container from "react-bootstrap/Container";
 import { useState } from "react";
@@ -9,13 +10,32 @@ function Registration() {
   const [passwordd, setPassword] = useState("");
   const [userName, setUserName] = useState("");
   async function userDetail (){
+    const clearValue = () =>{
+      setEmail("");
+      setPassword("");
+      setUserName("");
+    }
     const user ={
       "username":userName,
       "email":email,
       "password":passwordd
     }
-     await axios.post("http://localhost:4000/user-register",user)
+     await axios.post("http://localhost:4000/user-register",user).then(()=>{
+       Swal.fire({
+         title: "<strong>Submitted</u></strong>",
+         icon: "success",
+         showCloseButton: true,
 
+       });
+       clearValue();
+     }).catch((err)=> {
+       Swal.fire({
+         title: `<strong>${err.message}</u></strong>`,
+         icon: "error",
+         showCloseButton: true,
+
+       })
+     });
   }
   return (
     <div>
